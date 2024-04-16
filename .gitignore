@@ -196,10 +196,12 @@ cython_debug/
 # .idea/compiler.xml
 # .idea/jarRepositories.xml
 # .idea/modules.xml
-# .idea/*.iml
+.idea/*.iml
 # .idea/modules
 # *.iml
 # *.ipr
+.idea/*.xml
+.idea/*/*.xml
 
 # CMake
 cmake-build-*/
@@ -239,3 +241,4 @@ fabric.properties
 
 # vscode
 .vscode/
+/.idea/.gitignore
